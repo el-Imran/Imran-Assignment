@@ -1,0 +1,425 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.body{
+    background-color: #f3eded;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: black;
+    padding-top: 30px;
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-header h1 {
+    margin-right: 20px;
+    padding-left: 50px;
+}
+
+.navbar-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.toggle-icon {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    font-size:18px;
+    font-weight: bold;
+    width: 73%;
+    margin-right: 30px;
+}
+
+.navbar-links li {
+    margin-right: 20px;
+}
+
+
+
+
+
+.overall-background{
+    background-image:url(./images/building.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100vh;
+
+}
+
+li a button {
+    color: white;
+    background: rgb(238, 111, 53);
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid rgb(238, 111, 53);
+    font-size: 17px;
+
+}
+li a button:hover{
+    color: black;
+    background-color: #f0f4f7;
+    border:solid 2px #ff7f26;
+}
+
+.mpharm{
+    font-size: 25px;
+    align-self: flex-start;
+
+}
+
+.Africa{
+    color: rgb(238, 111, 53);
+
+
+}
+ul li{
+    list-style-type: none;
+
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+ 
+.text-header{
+    width: 50%;
+    margin: auto;
+    font-size: 40px;
+text-align: center;
+font-weight: bold;
+
+
+}
+.t-head-below{
+    padding-top: 200px;
+    height: 50%;
+
+}
+
+
+.text-header-below{
+    text-align: right;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+.container-w{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    background-color: #f3eded;
+
+}
+
+.container-y{
+    margin: 10px;
+    background-color: rgb(255, 202, 57);
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+.microscope{
+    margin: 0;
+    width: 50%;
+    height: 300px;
+}
+
+.text{
+
+    text-align: center;
+    max-width: 40%;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 30px;
+    width: 30%;
+}
+
+.light-text{
+    font-weight: 100;
+}
+.btn-blw, .btn{
+    color: white;
+    background: rgb(250, 105, 38);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 15px;
+    border: solid 2px #f3eded;
+    font-size: 15px;
+
+}
+.btn-blw:hover, .btn:hover{
+    color: black;
+    background-color: #f3eded;
+    border:solid 2px #ff7f26;
+}
+.btn-blw {
+    margin: 15px 25px 15px 15px;
+}
+.btn-b{
+    
+    border: 2px solid #ff7f26;
+    
+}
+.btn-b:hover{
+    background-color: rgb(255, 202, 57);
+}
+.blw-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #f3eded;;
+}
+
+.d-1{
+    padding: 20px;
+}
+.content-1-1,.content-2-1,.content-3-1{
+    text-align: center;
+    font-size: 47px;
+    font-weight: bold;
+    padding: 10px;
+}
+.content-1-2,.content-2-2, .content-3-2{
+    text-align: center;
+    font-size: 17px;
+    max-width: 1000px ;
+    padding: 10px;
+
+}
+.blw-section-2,.blw-section-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    padding: 30px;
+    background-color: #f3eded;
+}
+hr{
+    width: 90%;
+}
+h3{
+    padding: 20px;
+    text-align: center;
+}
+.card-bl{
+    background-color: #f3eded;
+    width: 100%;
+}
+
+.card-container{
+    
+    
+    background-color: #f3eded;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    justify-content: space-between;
+    padding: 40px;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+    
+
+
+
+
+.lg-card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 30px; 
+}
+@media (max-width:767px) {
+    .lg-card {width: 100%;}
+}
+
+.sm-card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    padding: 30px;
+    
+    
+}
+@media (max-width:767px) {
+    .sm-card {width: 100%;}
+}
+
+.c-p-text{
+    color: #ff7f26;
+    font-size: 80px;
+    text-align: center;
+}
+.lg-card div, .sm-card div { 
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer-sec{
+    background-color: grey;
+    padding: 35px 0;
+    margin: 0;
+}
+
+.l-sp { 
+
+    background-color: white;
+    height:35px;
+    margin: 0;
+    width: 100%;
+}
+.footer-content{
+    display: flex;
+    padding: 10px 60px;
+    width: 90%;
+}
+.footer-content p {
+   margin: 10px 0;    
+
+}
+@media (max-width:767px) {
+    .footer-content{
+        width: 100%;
+    }
+    
+}
+.foot-cont{
+    color: #f3eded;
+    padding: 30px;
+    width: 32%;
+}
+@media (max-width:767px) {
+    .foot-cont {width: 50%;
+        padding: 0;
+        margin: 0;
+    }    
+}
+.f-mphar{
+    color: #ff7f26;
+}
+
+.f-list{
+    color: white;
+    display: flex;
+    font-weight: 600;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    
+}
+
+@media (max-width:767px) {
+    .f-list {width: 40%;
+        justify-content: center;
+        margin: 30px 0 0 30px ;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;}
+    
+}@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-toggle {
+        display: block;
+        padding-left: 70%;
+
+    }
+    .card-container{
+        padding: 10px;
+    }
+    .mpharm{
+        margin-left: -50%;
+    }
+
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .navbar-links li {
+        margin: 10px 0;
+    }
+.microscope{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+}
+.navbar{
+    height: 30%;
+}
+
+.t-head-below{
+    padding-top: 5px;
+    height: 50%
+    
+}
+.text{
+
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 30px 30px;
+    max-width: 100%;
+    min-height: 100%;
+}
+}
